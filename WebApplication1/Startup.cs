@@ -38,6 +38,7 @@ namespace WebApplication1
 				{
 					options.Conventions.AuthorizeFolder("/Account/Manage");
 					options.Conventions.AuthorizePage("/Account/Logout");
+					options.Conventions.AuthorizePage("/Index");
 				});
 
 			services.Configure<IdentityOptions>(options =>
